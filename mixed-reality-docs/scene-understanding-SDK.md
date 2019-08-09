@@ -332,7 +332,7 @@ Steps 1-3 are highly dependent on your particular framework/implementation, but 
 Meshes represent geometric representations of objects or environments. Much like [spatial mapping](spatial-mapping.md), mesh index and vertex data provided with each spatial surface mesh uses the same familiar layout as the vertex and index buffers that are used for rendering triangle meshes in all modern rendering APIs. The specific APIs used to reference this data are as follows:
 
 ```cs
-void GetTriangleIndices(int[] indices);
+void GetTriangleIndices(uint[] indices);
 void GetVertices(float[] vertices);
 ```
 
